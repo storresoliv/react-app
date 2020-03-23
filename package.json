@@ -13,7 +13,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build -p $PORT",
+    "start": "serve -s build -p $(if [ -z $PORT ]; then echo '8080'; else echo $PORT; fi)",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
