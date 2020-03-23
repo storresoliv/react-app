@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build -p 8080",
+    "start": "serve -s build -p 80",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
